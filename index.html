@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>job application</title>
+    <link rel="stylesheet" href="stayl.css">
+</head>
+<body>
+    <div class="container">
+        <div class="apply_box">
+         
+            <h1>job application 
+                <span class="title_small">(web)</span>
+            </h1>
+            <form action="">
+                <div class="form_container">
+                    <div class="form_control">
+                        <label for="fist_name">fist name</label>
+                        <input
+                         id="fist_name"
+                          name="fist_name"
+                           placeholder="enter your name"
+                           />
+                    </div>
+                    <div class="form_control">
+                        <label for="last_name">last name</label>
+                        <input
+                         id="last_name"
+                          name="last_name"
+                           placeholder="enter your last name"
+                           />
+                    </div>
+                    <div class="form_control">
+                        <label for="email">email</label>
+                        <input
+                        type="email"
+                         id="email"
+                          name="email"
+                           placeholder="enter your email"
+                           />
+                    </div>
+                    <div class="form_control">
+                        <label for="job_role">job role</label>
+                        <select id="job_role" name="job_role">
+                            <option value=""> select job role</option>
+                            <option value="frontend">frontend</option>
+                            <option value="backend">backend</option>
+                            <option value="full_stack">full stack developer</option>
+                            <option value="ui_ux">ui ux designer</option>                            
+                        </select>                            
+                    </div>
+                    <div class="form_control">
+                        <labek for="address">address</labek>
+                        <textarea 
+                        id="address" 
+                        name="address"
+                         rows="5" 
+                         cols="30" 
+                         placeholder="enter your address">
+                        </textarea>
+                    </div>
+                    <div class="form_control">
+                        <lebel for="city">city</lebel>
+                        <input id="city" name="city" placeholder="enter your city"/>
+                    </div>
+                    <div class="from_control">
+                        <label for="pincode">pincode</label>
+                        <input type="number" id="pincode" name="pincode" placeholder="enter your pincode"/>
+                    </div>
+                    <div class="form_control">
+                        <laberl for="date">date</laberl>
+                        <input type="date" id="date"/>
+                    </div>
+                    <div form="form_control">
+                        <label for="upload">upload your CV</label>
+                        <input type="file" id="upload" name="upload"/>
+                    </div>
+                </div>
+                <div class="button_container">
+                    <button type="submit">Apply now</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
